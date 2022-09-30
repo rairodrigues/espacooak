@@ -1,3 +1,39 @@
 body{
-    background-image: url("img/3886837_11519.jpg");
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(124, 80, 165);
+    
 }
+
+
+/*aqui fica o estilo geral do ul que esta com classe menu */
+.menu{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: cornflowerblue;
+}
+a{
+    text-decoration: none;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 8px;
+    padding: 8px;
+}
+li{
+    background-color: tomato;
+    padding: 20px;
+    
+
+}
+header{
+    display: inline;    
+}
+/*já aqui fica o estilo apenas do li */
+
+h2{
+    text-align: center;
+}
+
